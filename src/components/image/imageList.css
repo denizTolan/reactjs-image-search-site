@@ -1,0 +1,9 @@
+.image-list-container {
+    padding-top:10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+.image-list-container img {
+    width:300px;
+}
